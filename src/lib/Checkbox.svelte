@@ -56,3 +56,4 @@ export { checked, color };
 		{...$$restProps} />
 	<label for=""><slot /></label>
 </div>
+

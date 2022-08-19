@@ -72,7 +72,7 @@ export let list = [];
 				<div class="layout-detials">
 					<span>{l.name}</span>
 					<p>
-						{l.value}
+						{l.desc}
 					</p>
 				</div>
 			</div>

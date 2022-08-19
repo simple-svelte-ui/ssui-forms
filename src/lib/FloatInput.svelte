@@ -77,7 +77,7 @@ let label = 'Value';
 let required = false;
 let placeholder = `Enter the ${label} here...`;
 let size = 'normal';
-export { color, value, width, label, required, placeholder, size, outline };
+export { color, value, width, label placeholder, size, outline };
 </script>
 
 <div
@@ -90,7 +90,6 @@ export { color, value, width, label, required, placeholder, size, outline };
 		type="text"
 		placeholder="{placeholder}"
 		class="text-input"
-		required="{required}"
 		bind:value
 		on:blur
 		on:change

@@ -24,7 +24,7 @@ label {
 </style>
 
 <script>
-export let radiolist = [];
+export let list = [];
 export let group = '';
 export let color = 'primary';
 export let direction = 'column';
@@ -44,7 +44,7 @@ const colorscheme = {
 	class="container"
 	style="--color:{colorscheme[color].color};--fontcolor:{colorscheme[color]
 		.fontColor};--direction:{direction}; --space:{space}">
-	{#each radiolist as item}
+	{#each list as item}
 		<div class="items">
 			<input
 				type="radio"
