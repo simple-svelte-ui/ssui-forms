@@ -1,0 +1,26 @@
+{
+    "name": "@simple-svelte-ui/forms",
+    "version": "0.0.1",
+    "description": "Simple svelte ui Forms extension",
+    "svelte": "src/index.js",
+    "devDependencies": {
+      "svelte": ""
+    },
+    "keywords": [
+      "svelte",
+      "simple",
+      "ui",
+      "forms",
+      "form"
+    ],
+    "author": "Syam SV <d8rkmind>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simple-svelte-ui/ssui-button.git"
+    },
+    "bugs": {
+      "url": "https://github.com/simple-svelte-ui/ssui-button/issues"
+    },
+    "homepage": "https://github.com/simple-svelte-ui/ssui-button"
+  }
